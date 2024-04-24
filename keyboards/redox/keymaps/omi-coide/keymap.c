@@ -27,20 +27,6 @@ enum custom_keycodes {
 
 //#define KC_ADEN LT(_ADJUST, KC_END)
 //#define KC_ADPU LT(_ADJUST, KC_PGUP)
-enum {
-    TD_BRC_L,
-    TD_BRC_R,
-};
-qk_tap_dance_action_t tap_dance_actions[]={
-    [TD_BRC_L]=ACTION_TAP_DANCE_DOUBLE(KC_LBRC,KC_SLASH),
-    [TD_BRC_R]=ACTION_TAP_DANCE_DOUBLE(KC_RBRC,KC_QUOT),
-};
-#define TD_LBRC  TD(TD_BRC_L)
-#define TD_RBRC  TD(TD_BRC_R)
-#define TD_LALT  TD(TD_LALT)
-#define TD_RALT  TD(TD_RALT)
-//#define TD_LBRC KC_LBRC
-//#define TD_RBRC KC_RBRC
 #define KC_SYMLP LT(_SYMB,KC_COMM)
 #define KC_NAVRP LT(_NAV ,KC_DOT)
 enum combos {

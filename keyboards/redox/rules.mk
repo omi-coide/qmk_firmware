@@ -15,3 +15,4 @@ NKRO_ENABLE = yes		# USB Nkey Rollover - not yet supported in LUFA
 # BACKLIGHT_ENABLE = yes  # Enable keyboard backlight functionality
 # MIDI_ENABLE = YES 		# MIDI controls
 UNICODE_ENABLE = no			# Unicode
+TAP_DANCE_ENABLE = no		# Remove TAPDANCE by YLY 202404
